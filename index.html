@@ -17,17 +17,13 @@
 
 	<div id="case">
 		<table>
-			<tr id="ans">
-				<th colspan="5">
-					0
-				</th>
-			</tr>
+			
 
 
 
 			<tr>
 				<td>
-					<button id="ac">
+					<button id="ac" onclick="clear()">
 						AC
 					</button>
 				</td>
@@ -68,26 +64,26 @@
 				</td>
 
 				<td>
-					<button id="1">
+					<button id="1" onclick="write_symbol(1)">
 						1
 					</button>
 				</td>
 
 				<td>
-					<button id="2" onclick="type(2)">
+					<button id="2" onclick="write_symbol(2)">
 						2
 					</button>
 				</td>
 
 				<td>
-					<button id="3">
+					<button id="3" onclick="write_symbol(3)">
 						3
 					</button>
 				</td>
 
 				<td>
-					<button class="q"  id="multiply">
-						×
+					<button class="q"  id="multiply" onclick="write_symbol('*')">
+						x
 					</button>
 				</td>
 				
@@ -101,25 +97,25 @@
 				</td>
 
 				<td>
-					<button id="4">
+					<button id="4" onclick="write_symbol(4)">
 						4
 					</button>
 				</td>
 
 				<td>
-					<button id="5">
+					<button id="5" onclick="write_symbol(5)">
 						5
 					</button>
 				</td>
 
 				<td>
-					<button id="6">
+					<button id="6" onclick="write_symbol(6)">
 						6
 					</button>
 				</td>
 
 				<td>
-					<button class="q" id="subtract">
+					<button class="q" id="subtract" onclick="write_symbol('-')">
 						-
 					</button>
 				</td>
@@ -128,31 +124,31 @@
 
 			<tr>
 				<td>
-					<button id="PI">
+					<button id="PI" onclick="write_symbol(3.14)">
 						π
 					</button>
 				</td>
 
 				<td>
-					<button id="7">
+					<button id="7" onclick="write_symbol(7)">
 						7
 					</button>
 				</td>
 
 				<td>
-					<button id="8">
+					<button id="8" onclick="write_symbol(8)">
 						8
 					</button>
 				</td>
 
 				<td>
-					<button id="9">
+					<button id="9" onclick="write_symbol(9)">
 						9
 					</button>
 				</td>
 
 				<td>
-					<button class="q" id="add">
+					<button class="q" id="add" onclick="write_symbol('+')">
 						+
 					</button>
 				</td>
@@ -161,31 +157,31 @@
 
 			<tr>
 				<td>
-					<button id="exponent">
+					<button id="exponent" onclick="write_symbol('e')">
 						e
 					</button>
 				</td>
 
 				<td>
-					<button id="procent">
+					<button id="procent" onclick="write_symbol('%')">
 						%
 					</button>
 				</td>
 
 				<td>
-					<button id="0">
+					<button id="0" onclick="write_symbol(0)">
 						0
 					</button>
 				</td>
 
 				<td>
-					<button id="duble">
+					<button id="double" onclick="write_symbol(',')">
 						,
 					</button>
 				</td>
 
 				<td>
-					<button class="q"  id="result">
+					<button class="q"  id="result" >
 						=
 					</button>
 				</td>
