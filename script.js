@@ -12,3 +12,4 @@ function res() {
 
       }
     }
+ function isNumber() { return /^-?[\d.]+(?:e-?\d+)?$/.test(n); }
