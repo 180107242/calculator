@@ -27,32 +27,32 @@
 
 			<tr>
 				<td>
-					<button id="ac" onclick="clear()">
+					<button id="ac" onclick="clean()">
 						AC
 					</button>
 				</td>
 
 				<td>
-					<button id="left_bracket">
+					<button id="left_bracket" onclick="write_symbol('(')">
 						(
 					</button>
 				</td>
 
 				<td>
-					<button id="right_bracket">
+					<button id="right_bracket" onclick="write_symbol(')')">
 						)
 					</button>
 				</td>
 
 				<td>
-					<button id="factorial">
+					<button id="factorial" onclick="check_and_make_factorial()">
 						n!
 					</button>
 				</td>
 
 				<td>
-					<button class="q" id="divide">
-						÷
+					<button class="q" id="divide" onclick="write_symbol('/')">
+						/
 					</button>
 				</td>
 				
@@ -161,7 +161,7 @@
 
 			<tr>
 				<td>
-					<button id="exponent" onclick="write_symbol('e')">
+					<button id="exponent" onclick="write_symbol(2.71)">
 						e
 					</button>
 				</td>
@@ -179,13 +179,13 @@
 				</td>
 
 				<td>
-					<button id="double" onclick="write_symbol(',')">
-						,
+					<button id="double" onclick="write_symbol('.')">
+						.
 					</button>
 				</td>
 
 				<td>
-					<button class="q"  id="result" >
+					<button class="q"  id="result" onclick="res()">
 						=
 					</button>
 				</td>
