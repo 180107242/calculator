@@ -26,3 +26,22 @@ function check_and_make_square() {
       // body...
       document.form.input.value = number * number;
     }
+
+	
+	function check_and_make_factorial() {
+			// body...
+			let f = document.form.input.value;
+			if (isNumber(f)) {
+				 result = factorial(f);
+				 document.form.input.value = result;
+			}else {document.form.input.value = false;} 
+		}
+
+		function factorial(number) {
+			// body...
+			if (number == 1) {
+				return 1;
+			}else{
+				return number * factorial(number - 1);
+			}
+		}
