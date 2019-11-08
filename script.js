@@ -13,3 +13,16 @@ function res() {
       }
     }
  function isNumber() { return /^-?[\d.]+(?:e-?\d+)?$/.test(n); }
+function check_and_make_square() {
+      // body...
+      let f = document.form.input.value;
+      if (isNumber(f)) {
+        let s = square(f);
+      }
+    }
+
+    
+    function square(number) {
+      // body...
+      document.form.input.value = number * number;
+    }
